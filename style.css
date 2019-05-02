@@ -1,0 +1,45 @@
+canvas {
+    /* border: 1px solid black; */
+    /* margin: 0; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background: -webkit-radial-gradient(rgb(203, 255, 0), rgb(254, 139, 0));
+    background: radial-gradient(rgb(203, 255, 0), rgb(254, 139, 0));
+
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+}
+
+#legend {
+    z-index: 100;
+    position: fixed;
+    /* margin-left: 90vw; */
+    top: 5%;
+    left: 5%;
+    /* background-color: rgb(119, 36, 129); */
+
+}
+
+#bg-btn {
+    z-index: 101;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(119, 36, 129);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bg-btn:hover {
+    color: white;
+    box-shadow: 0 0.75rem 0.75rem rgba(0,0,0,.8);
+}
+
+#bg-btn:active {
+    transform: translateY(4px);
+}
+
+#bg-btn:after {
+    border: none;
+}
